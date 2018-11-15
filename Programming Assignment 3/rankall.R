@@ -19,7 +19,7 @@ rankall <- function(outcome, num = "best") {
         stop("invalid outcome")
     }
     
-    # Creat a empty vectors
+    # Creat empty vectors
     col_hospital <- c()
     col_state <- c()
     # for each state 
